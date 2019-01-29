@@ -16,19 +16,10 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Baidushanxi\\JrttMarketingApi\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Baidushanxi\\JrttMarketingApi\\ServiceProvider"
-            ],
-            "aliases": {
-                "JrttOpenApi": "Baidushanxi\\JrttMarketingApi\\\\Facade"
-            }
         }
     }
 }
